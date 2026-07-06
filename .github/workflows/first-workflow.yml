@@ -15,7 +15,7 @@ jobs:
       - run: |
           echo "This job was triggered by ${{ github.event_name }}"
           echo "Branch name is ${{ github.ref }} and repository is ${{github.repository}}."
-          echo "Triggered by: ${{github.actor}} using ${{ github.event_name }} ">> $GITHUB_STEP_SUMMARY
+          echo "Triggered by : ${{github.actor}} using ${{ github.event_name }} ">> $GITHUB_STEP_SUMMARY
       - uses: actions/checkout@v7.0.0  
       
       - name: List repo files
