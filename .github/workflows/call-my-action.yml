@@ -10,7 +10,7 @@ on:
         description: 'Who do we target for 🗨️'
         type: string
         required: true 
-        default: attendees
+        default: vvesa
 
 jobs:
   test-my-action:
